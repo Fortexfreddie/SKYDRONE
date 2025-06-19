@@ -1,4 +1,4 @@
-import angle from "../assets/images/angles.jpg";
+import angle from "../assets/images/angles.webp";
 
 const Features = () => {
     return (  

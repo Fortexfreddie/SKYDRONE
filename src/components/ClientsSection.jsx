@@ -8,7 +8,7 @@ import img7 from "../assets/company Images/Group3.png";
 
 const ClientsSection = () => {
     return ( 
-        <div className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
+        <div id="Clients" className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
             <div className="flex-grow flex flex-col justify-center p-4 sm:p-6">
                 <div className="container mx-auto">
                     <div className="flex flex-col justify-center items-center text-center">

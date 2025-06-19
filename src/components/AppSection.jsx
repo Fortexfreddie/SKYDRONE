@@ -3,7 +3,7 @@ import google from '../assets/icons/google.png';
 
 const AppSection = () => {
     return (  
-        <div className="flex flex-col">
+        <div id='Download' className="flex flex-col">
             <div className="flex-grow flex flex-col justify-center p-4 sm:p-6 bg-gradient-to-r from-[#D48C04] to-[#B35911]">
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex-row justify-between gap-6 items-center py-4">

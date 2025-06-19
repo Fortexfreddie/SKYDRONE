@@ -18,9 +18,9 @@ const Navbar = () => {
                     </div>
                     <div className="hidden md:flex items-center gap-6">
                         <ul className="Raleway text-[#4B4B4B] flex gap-4">
-                            <li className="hover:text-gray-950"><a href="">Clients</a></li>
+                            <li className="hover:text-gray-950"><a href="#Clients">Clients</a></li>
                             <li className="hover:text-gray-950"><a href="#Features">Features</a></li>
-                            <li className="hover:text-gray-950"><a href="">Download App</a></li>
+                            <li className="hover:text-gray-950"><a href="#Download">Download App</a></li>
                         </ul>
                         <button className="flex items-center justify-center Raleway px-4 py-2 bg-[#C4730A] rounded-sm text-white cursor-pointer shadow-sm hover:bg-[#C4730A]/90">Contact Us</button>
                     </div>
@@ -32,10 +32,10 @@ const Navbar = () => {
                     className={`transition-all duration-500 ease-in-out transform overflow-hidden ${menuOpen ? 'opacity-100 scale-100 translate-y-0 max-h-[200px] mt-4' : 'opacity-0 scale-95 -translate-y-2 max-h-0'}`}>
                     <div className="flex flex-col md:hidden gap-4 py-4 bg-[#e3f8fd]/90 p-4">
                         <ul className="Raleway text-gray-950 flex-col gap-4">
-                            <li><a href="">Clients</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Download App</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="#Clients">Clients</a></li>
+                            <li><a href="#Features">Features</a></li>
+                            <li><a href="Download">Download App</a></li>
+                            <li><a href="#Contact">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

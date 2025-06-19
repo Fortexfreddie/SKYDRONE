@@ -2,7 +2,7 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Contact = () => {
     return (  
-        <div className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
+        <div id='Contact' className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
             <div className="flex-grow flex flex-col p-4 sm:p-6">
                 <div className="container mx-auto my-10">
                     <div>
