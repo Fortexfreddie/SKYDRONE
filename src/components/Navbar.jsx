@@ -30,12 +30,12 @@ const Navbar = () => {
                 </div>
                 <div
                     className={`transition-all duration-500 ease-in-out transform overflow-hidden ${menuOpen ? 'opacity-100 scale-100 translate-y-0 max-h-[200px] mt-4' : 'opacity-0 scale-95 -translate-y-2 max-h-0'}`}>
-                    <div className="flex flex-col md:hidden gap-4 py-4">
-                        <ul className="Raleway text-[#4B4B4B] flex-col gap-4">
-                            <li className="hover:text-gray-950"><a href="">Clients</a></li>
-                            <li className="hover:text-gray-950"><a href="">Features</a></li>
-                            <li className="hover:text-gray-950"><a href="">Download App</a></li>
-                            <li className="hover:text-gray-950"><a href="">Contact Us</a></li>
+                    <div className="flex flex-col md:hidden gap-4 py-4 bg-[#e3f8fd]/90 p-4">
+                        <ul className="Raleway text-gray-950 flex-col gap-4">
+                            <li><a href="">Clients</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Download App</a></li>
+                            <li><a href="">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

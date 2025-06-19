@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import bgImage from "../assets/images/hero_image.jpg";
 const Hero = () => {
     return ( 
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen md:min-h-[50vh] xl:min-h-screen">
             <div className="relative flex-grow">
                 <div className="container mx-auto">
                     <Navbar />
@@ -22,7 +22,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <img src={bgImage} className="w-full h-screen object-cover" alt="" />
+                <img src={bgImage} className="w-full h-screen md:h-[50vh] xl:h-screen object-cover" alt="" />
             </div>
         </div>
     );

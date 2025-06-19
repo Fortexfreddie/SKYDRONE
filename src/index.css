@@ -17,17 +17,7 @@
 .clip-md {
   clip-path: circle(90% at 0% 0%);
 }
-@media (min-width: 1024px) {
-  .clip-md {
-    clip-path: circle(90% at 0% 0%);
-  }
-}
 
 .clip-md_2 {
   clip-path: circle(90% at 100% 100%);
-}
-@media (min-width: 1024px) {
-  .clip-md_2 {
-    clip-path: circle(90% at 100% 100%);
-  }
 }
