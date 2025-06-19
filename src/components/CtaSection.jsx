@@ -1,6 +1,6 @@
 const CtaSection = () => {
     return (  
-        <div className="relative min-h-[50vh] xl:min-h-screen flex flex-col">
+        <div className="relative min-h-[70vh] xl:min-h-screen flex flex-col">
             <div className="absolute inset-0 bg-[url('./assets/images/CTA.jpg')] bg-cover bg-center opacity-80"></div>
             <div className="relative flex-grow flex flex-col p-4 sm:p-6">
                 <div className="container mx-auto">
