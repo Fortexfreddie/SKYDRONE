@@ -34,7 +34,7 @@ const Navbar = () => {
                         <ul className="Raleway text-gray-950 flex-col gap-4">
                             <li><a href="#Clients">Clients</a></li>
                             <li><a href="#Features">Features</a></li>
-                            <li><a href="Download">Download App</a></li>
+                            <li><a href="#Download">Download App</a></li>
                             <li><a href="#Contact">Contact Us</a></li>
                         </ul>
                     </div>
