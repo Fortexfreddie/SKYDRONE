@@ -19,7 +19,7 @@ const Navbar = () => {
                     <div className="hidden md:flex items-center gap-6">
                         <ul className="Raleway text-[#4B4B4B] flex gap-4">
                             <li className="hover:text-gray-950"><a href="">Clients</a></li>
-                            <li className="hover:text-gray-950"><a href="">Features</a></li>
+                            <li className="hover:text-gray-950"><a href="#Features">Features</a></li>
                             <li className="hover:text-gray-950"><a href="">Download App</a></li>
                         </ul>
                         <button className="flex items-center justify-center Raleway px-4 py-2 bg-[#C4730A] rounded-sm text-white cursor-pointer shadow-sm hover:bg-[#C4730A]/90">Contact Us</button>

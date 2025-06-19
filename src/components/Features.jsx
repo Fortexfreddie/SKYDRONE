@@ -2,7 +2,7 @@ import angle from "../assets/images/angles.jpg";
 
 const Features = () => {
     return (  
-        <div className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
+        <div id="Features" className="min-h-screen md:min-h-[50vh] xl:min-h-screen flex flex-col">
             <div className="flex-grow flex flex-col justify-center p-4 sm:p-6">
                 <div className="container mx-auto">
                     <div className="flex flex-col md:flex-row items-center justify-center">
